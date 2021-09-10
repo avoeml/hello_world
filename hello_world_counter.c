@@ -16,12 +16,9 @@ int main()
     {
         printf("Count %d\n", countNum);
         countNum--;
-        sleep(1000);
+        sleep(1);
     }
 
     printf("Program finished...\n\n");
-    printf("An edit");
-    printf("Another An edit2");
-    printf("Another An edit");
-    printf("...");
+    
 }
