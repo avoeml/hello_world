@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.19)
 
-project(Hello)
+project(HelloWorldCounter)
 
-add_executable(HelloWorldCounter hello_world_counter.c)
-
+add_executable(HelloWorldCounter src/main.c)
+ 
