@@ -16,7 +16,7 @@ int main()
     {
         printf("Count %d\n", countNum);
         countNum--;
-        Sleep(1000);
+        sleep(1000);
     }
 
     printf("Program finished...\n\n");
