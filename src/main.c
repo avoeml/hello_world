@@ -28,5 +28,5 @@ int main()
         }
     }
 
-    printf("Program finished...\n\n");
+    printf("\nProgram finished...\n\n");
 }
