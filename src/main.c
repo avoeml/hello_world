@@ -17,9 +17,16 @@ int main()
     {
         printf("Count %d\n", countNum);
         countNum--;
-        sleep(1);
+
+        if (_WIN32)
+        {
+            Sleep(1000);
+        }
+        else
+        {
+            sleep(1);
+        }
     }
 
     printf("Program finished...\n\n");
-    
 }
