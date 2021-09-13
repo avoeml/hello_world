@@ -1,10 +1,12 @@
 #include <stdio.h>
 
-#ifdef _WIN32
-#include <Windows.h>
-#else
+// #ifdef _WIN32
+// #include <Windows.h>
+// #else
+// #include <unistd.h>
+// #endif
+
 #include <unistd.h>
-#endif
 
 int main()
 {
@@ -18,14 +20,15 @@ int main()
         printf("Count %d\n", countNum);
         countNum--;
 
-        if (_WIN32)
-        {
-            Sleep(1000);
-        }
-        else
-        {
-            sleep(1);
-        }
+        // if (_WIN32)
+        // {
+        //     Sleep(1000);
+        // }
+        // else
+        // {
+        //     sleep(1);
+        // }
+        sleep(1);
     }
 
     printf("\nProgram finished...\n\n");
