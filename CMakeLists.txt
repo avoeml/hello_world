@@ -4,5 +4,5 @@ project(HelloWorldCounter)
 
 add_executable(HelloWorldCounter src/main.c)
 
-install(TARGETS HelloWorldCounter DESTINATION bin)
+install(TARGETS anton DESTINATION bin)
  
