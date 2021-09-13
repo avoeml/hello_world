@@ -1,0 +1,12 @@
+diff --git a/src/main.c b/src/main.c
+index 667c06a..e9cff0d 100644
+--- a/src/main.c
++++ b/src/main.c
+@@ -31,5 +31,7 @@ int main()
+         sleep(1);
+     }
+ 
++    printf("\nThis line was added by a .patch-file 😂\n\n");
++
+     printf("\nProgram finished...\n\n");
+ }
