@@ -1,0 +1,10 @@
+--- main.c	2021-09-13 19:19:50.974215200 +0200
++++ edit_main.c	2021-09-13 19:53:30.834215200 +0200
+@@ -31,5 +31,7 @@
+         sleep(1);
+     }
+ 
++    printf("\nThis line was added by a .patch-file 😂\n\n");
++
+     printf("\nProgram finished...\n\n");
+ }
